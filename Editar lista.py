@@ -12,3 +12,7 @@ archivo.write("#""EXTINF:0, Teleclub (Opcion 2) " + '\n')
 archivo.write(lista2 + '\n')
 
 archivo.close()
+
+import os
+direccion = "c:/My python apps/M3U actualizador"
+os.system(direccion + 'gitupdate.bat')
