@@ -11,5 +11,7 @@ archivo.write(lista1 + '\n')
 archivo.write("#""EXTINF:0, Teleclub (Opcion 2) " + '\n')
 archivo.write(lista2 + '\n')
 
-archivo.close()
+archivo.close 
+
+
 
