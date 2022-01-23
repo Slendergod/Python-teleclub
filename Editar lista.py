@@ -1,3 +1,15 @@
+import webbrowser
+
+urls = ['https://teleclub.xyz/listas']
+
+aux = 0
+for x in urls:
+    webbrowser.register('firefox', None, webbrowser.BackgroundBrowser(
+        "C://Program Files (x86)//Mozilla Firefox//firefox.exe"))
+
+    webbrowser.get('firefox').open(urls[aux])
+    aux += 1
+
 archivo = open("Teleclub","w")
 #Input
 lista1 = input("Inserte lista 1: ")
