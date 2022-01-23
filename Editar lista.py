@@ -4,10 +4,10 @@ urls = ['https://teleclub.xyz/listas']
 
 aux = 0
 for x in urls:
-    webbrowser.register('firefox', None, webbrowser.BackgroundBrowser(
-        "C://Program Files (x86)//Mozilla Firefox//firefox.exe"))
+    webbrowser.register('windows-default', None, webbrowser.BackgroundBrowser(
+        "C://Program Files (x86)//Microsoft//Edge//Application//msedge"))
 
-    webbrowser.get('firefox').open(urls[aux])
+    webbrowser.get('windows-default').open(urls[aux])
     aux += 1
 
 archivo = open("Teleclub","w")
