@@ -1,3 +1,4 @@
+#Abrir navegador 
 import webbrowser
 
 urls = ['https://teleclub.xyz/listas']
@@ -9,8 +10,10 @@ for x in urls:
 
     webbrowser.get('windows-default').open(urls[aux])
     aux += 1
-
+#Abrir archivo TELE
 archivo = open("Teleclub","w")
+
+archivo.write("#""EXTM3U" + '\n')
 #Input
 lista1 = input("Inserte lista 1: ")
 lista2 = input("Inserte lista 2: ")
